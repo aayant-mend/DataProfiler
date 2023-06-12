@@ -1,136 +1,44 @@
 
-# DataProfiler Specific
-DataProfiler\.egg-info/
-DataProfiler.egg-info/*
-data_profiler/labelers/embeddings/glove-reduced-64D.txt
-dataprofiler/labelers/embeddings/glove-reduced-64D.txt
-*.xml
-*.orig
+\.DS_Store
 
-# Emacs files
-**~
-
-.torchignore
-
-.cache/
-.idea/
-.vscode
 *.pyc
-*.pkl
-*.whl
-*.egg
-**/.DS_Store
 
-test/__pycache__/
+# IDE
+\.idea/
+.vscode/
 
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+data-profiler/
 
-# C extensions
-*.so
+data-profiler-py2/
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+data-profiler-py3/
 
-# great expectations examples
-examples/great_expectations/great_expectations/
-examples/great_expectations/data/
+DataProfiler/
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+examples/
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.pytest_cache/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
 feature_branch/
 
-# PyBuilder
-target/
+build/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+dist/
 
-# pyenv
-.python-version
+smart_data_profiler\.egg-info/
 
-# celery beat schedule file
-celerybeat-schedule
+venv3/
 
-# SageMath parsed files
-*.sage.py
+data_profiler.egg-info/*
 
-# Environments
-.env
-.venv
-env/
+**~
 venv/
-ENV/
-env.bak/
-venv.bak/
 
-# Spyder project settings
-.spyderproject
-.spyproject
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
-# Rope project settings
-.ropeproject
+.coverage
+*.xml
 
-# mkdocs documentation
-/site
+*.orig
+dataprofiler/labelers/embeddings/glove-reduced-64D.txt
 
-# mypy
-.mypy_cache/
-env3/
-
-*.bak
+.torchignore
